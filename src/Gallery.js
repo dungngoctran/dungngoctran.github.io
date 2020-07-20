@@ -7,7 +7,7 @@ class Gallery extends React.Component {
 
 	render() {
 		return(
-			<div className="Gallery module">
+			<div className="Gallery">
 				<img src={Pic1} alt="Day 1 angle 1"/>
 				<img src={Pic2} alt="Day 1 angle 2"/>
 			</div>
