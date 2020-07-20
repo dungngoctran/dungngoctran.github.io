@@ -1,0 +1,8 @@
+.App-header {
+  padding: 20px 40px;
+  background-color: #d44a71;
+}
+
+.App > div:nth-child(even) {
+  background-color: #fffff0;
+}

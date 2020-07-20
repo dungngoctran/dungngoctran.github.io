@@ -1,0 +1,24 @@
+.Contact p, .Contact b, .Contact a {
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 18px;
+	display: inline;
+}
+
+.Contact h4 {
+	margin-bottom: 40px;
+}
+
+.Contact div {
+	margin-bottom: 20px;
+}
+
+.Contact a {
+	text-decoration: none;
+	color: #d44a71;
+	margin: 0 5px;
+	font-weight: bold;
+}
+
+.Contact a:hover {
+	text-decoration: underline;
+}

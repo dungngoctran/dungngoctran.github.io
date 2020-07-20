@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.module {
+	min-height: 400px;
+	padding: 40px 80px;
+	box-sizing: border-box;
+}
+
+h2 {
+	font-family: 'Proza Libre', sans-serif;
+}
+
+h4 {
+	font-family: 'Proza Libre', sans-serif;
+	font-size: 32px;
+}
+
+p, b {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 24px;
+}
