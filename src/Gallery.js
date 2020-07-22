@@ -5,6 +5,8 @@ import Pic2 from './resources/pic2.jpg';
 import Pic3 from './resources/pic3.jpg';
 import Pic4 from './resources/pic4.jpg';
 import Pic5 from './resources/pic5.jpg';
+import Pic6 from './resources/pic6.jpg';
+import Pic7 from './resources/pic7.jpg';
 
 class Gallery extends React.Component {
 
@@ -16,6 +18,8 @@ class Gallery extends React.Component {
 				<img src={Pic3} alt="Day 2 pic 1"/>
 				<img src={Pic4} alt="Day 2 pic 2"/>
 				<img src={Pic5} alt="Day 2 pic 3"/>
+				<img src={Pic6} alt="Day 3 pic 1"/>
+				<img src={Pic7} alt="Day 3 pic 2"/>
 			</div>
 		)
 	}
