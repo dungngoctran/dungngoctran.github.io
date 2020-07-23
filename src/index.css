@@ -4,13 +4,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.module {
-	min-height: 400px;
-	padding: 40px 80px;
-	box-sizing: border-box;
-}
-
-h2 {
+h2, a {
 	font-family: 'Proza Libre', sans-serif;
 }
 
@@ -22,4 +16,34 @@ h4 {
 p, b {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 24px;
+}
+
+.module {
+	min-height: 400px;
+	padding: 40px 80px;
+	box-sizing: border-box;
+}
+
+.button {
+	display: inline-block;
+	padding: 19px 20px;
+	box-sizing: border-box;
+	background-color: #d44a71;
+	color: white;
+	text-decoration: none;
+	margin: 40px 0;
+	border-radius: 10px;
+}
+
+.quicklink {
+	font-size: 24px;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	margin: 40px;
+	color: white;
+	background-color: #d44a71;
+	padding: 15px;
+	border-radius: 30px;
+	text-decoration: none;
 }

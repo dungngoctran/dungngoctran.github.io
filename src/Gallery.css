@@ -1,13 +1,20 @@
-.Gallery > img {
-	width: 100%;
-}
-
-@media only screen and (min-width: 768px) {
-	.Gallery > img {
-		width: 300px;
-	}
-}
-
 .Gallery {
 	line-height: 0;
+	text-align: center;
+}
+
+.Gallery > img {
+	width: 50%;
+}
+
+.Gallery .button {
+	display: unset;
+	position: relative;
+	bottom: 100px;
+}
+
+@media only screen and (min-width: 600px) {
+	.Gallery > img {
+		width: 25%;
+	}
 }

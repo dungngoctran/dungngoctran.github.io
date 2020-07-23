@@ -1,20 +1,22 @@
 import React from 'react';
-import Welcome from './Welcome';
-import Gallery from './Gallery';
-import Menu from './Menu';
-import Contact from './Contact';
+import Home from './Home';
+import FullGallery from './GalleryFull';
+import {Switch, Route, BrowserRouter as Router, Link} from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h2>Debbie - House Call Barber</h2>
-      </header>
-      <Welcome />
-      <Gallery />
-      <Menu />
-      <Contact />
+      <Router>
+        <header className="App-header">
+          <Link className="fas fa-home" to="/"></Link>
+          <h2>Debbie - Hair Stylist</h2>
+        </header>
+        <Switch>
+          <Route path="/gallery"><FullGallery /></Route>
+          <Route exact path="/"><Home /></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

@@ -3,8 +3,21 @@
   background-color: #d44a71;
   position: fixed;
   width: 100%;
+  color: white;
+  z-index: 1000;
 }
 
-.App > div:nth-child(even) {
-  background-color: #fffff0;
+.App-header h2 {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.App-header a {
+	font-size: 24px;
+	color: white;
+	text-decoration: none;
+}
+
+.App-header a:hover {
+	cursor: pointer;
 }
