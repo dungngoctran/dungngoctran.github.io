@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './Home';
 import FullGallery from './GalleryFull';
-import {Switch, Route, BrowserRouter as Router, Link} from 'react-router-dom';
+import {Switch, Route, HashRouter as Router, Link} from 'react-router-dom';
 import './App.css';
 
 function App() {
