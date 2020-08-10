@@ -13,6 +13,13 @@ import Pic10 from './resources/pic10.jpg';
 import Pic11 from './resources/pic11.jpg';
 import './GalleryFull.css';
 import {Link} from 'react-router-dom';
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-175042129-1', {
+	gaOptions: {
+		siteSpeedSampleRate: 100
+	}
+});
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const pics = [Pic0, Pic1, Pic2, Pic3, Pic4, Pic5, Pic6, Pic7, Pic8, Pic9, Pic10, Pic11];
 

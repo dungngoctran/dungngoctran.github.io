@@ -5,6 +5,13 @@ import Menu from './Menu';
 import Contact from './Contact';
 import {Link} from 'react-router-dom';
 import './Home.css';
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-175042129-1', {
+	gaOptions: {
+		siteSpeedSampleRate: 100
+	}
+});
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function Home() {
 	return(
